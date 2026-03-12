@@ -61,7 +61,7 @@ Odds ratios and confidence intervals were visualized using a forest plot to illu
 
 ### Biomarker Odds Ratio Forest Plot
 
-![Biomarker Forest Plot](figures/biomarker_forest_plot.png)
+figures/biomarker_forest_plot.png"
 
 This figure displays estimated odds ratios and 95% confidence intervals for each tumor biomarker included in the logistic regression model.
 
