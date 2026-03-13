@@ -54,6 +54,21 @@ The logistic regression analysis identified tumor biomarker measurements associa
 Tumor **texture** showed a positive association with malignancy risk, while tumor **radius** and **area** demonstrated weaker associations in this simplified model.
 
 Odds ratios and confidence intervals were visualized using a forest plot to illustrate the magnitude and direction of biomarker effects.
+Results
+
+## Results
+
+Kaplan–Meier survival analysis was performed to evaluate the association 
+between ERBB2 expression and overall survival in TCGA breast cancer patients.
+
+Patients were stratified into high and low expression groups using the median 
+ERBB2 expression level.
+
+While the high expression group demonstrated a trend toward poorer survival, 
+the difference was not statistically significant (log-rank p = 0.075).
+
+Cox proportional hazards modeling also did not identify ERBB2 expression as a
+significant predictor of overall survival (HR = 0.94, 95% CI 0.82–1.07, p = 0.316).
 
 ---
 
@@ -66,6 +81,8 @@ Odds ratios and confidence intervals were visualized using a forest plot to illu
 This figure displays estimated odds ratios and 95% confidence intervals for each tumor biomarker included in the logistic regression model.
 
 Values greater than 1 indicate an increased odds of malignancy associated with higher biomarker measurements.
+
+![Kaplan-Meier Survival Curve](figures/erbb2_km_survival.png)
 
 ---
 
