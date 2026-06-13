@@ -1,4 +1,4 @@
-# breast-cancer-biomarker-analysis
+# Breast-cancer-biomarker-analysis
 Logistic regression analysis of tumor biomarkers predicting breast cancer malignancy using the Wisconsin Breast Cancer dataset.
 ## Dataset
 
